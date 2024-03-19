@@ -36,11 +36,17 @@ const App = () => {
 
   return (
     <div className="w-full relative px-4 font-roboto font-light bg-themeBlack  text-white min-h-screen">
-      <div className="flex w-full h-screen fixed z-50  top-0 items-center text-slate-300 justify-between">
+      <div className="flex w-full h-screen fixed z-10 md:z-10  top-0 items-center text-slate-300 justify-between">
         <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
-          <FaLinkedinIn />
-          <FaFacebookF />
-          <MdEmail />
+          <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
+            <FaLinkedinIn />
+          </a>
+          <a href="https://www.facebook.com/aman.shrestha.7524/">
+            <FaFacebookF />
+          </a>
+          <a href="mailto:amanshrestha147181@gmail.com">
+            <MdEmail />
+          </a>
         </div>
 
         <div
