@@ -13,7 +13,7 @@ const Work = () => {
       </div>
       <div className="flex  items-center  overflow-y-auto scrollbar-hide   py-10  gap-8 pt-5  z-20 lg:px-24">
         <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[420px]  sm:h-[480px] relative overflow-y-hidden ">
+          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]  sm:h-[480px] relative overflow-y-hidden ">
             <a href="https://urban-dwellings.vercel.app/">
               <img className=" " src="/urban.png" alt="Urban Dwellings" />
             </a>
@@ -25,7 +25,7 @@ const Work = () => {
         </div>
 
         <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[420px]  sm:h-[480px] relative overflow-y-hidden ">
+          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]  sm:h-[480px] relative overflow-y-hidden ">
             <a href="https://github.com/Aman147181/minor-project">
               <img className="" src="/safari.png" alt="Safari Nepal " />
             </a>
@@ -36,7 +36,7 @@ const Work = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[420px]  sm:h-[480px] relative overflow-y-hidden ">
+          <div className="w-full sm:hover:h-[520px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]  sm:h-[480px] relative overflow-y-hidden ">
             <a href="https://ayushachary.com.np/">
               <img className="" src="/rupse.png" alt="Rupse Holidays" />
             </a>
