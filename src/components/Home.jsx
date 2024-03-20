@@ -32,7 +32,7 @@ const Home = () => {
           const section = document.getElementById("work");
           section.scrollIntoView({ behavior: "smooth" });
         }}
-        className=" w-16 h-16 sm:w-24 sm:h-24 mt-32 text-medium text-3xl sm:hover:text-black duration-700 sm:hover:bg-white animate-bounce flex items-center justify-center  introduction opacity-0 translate-y-10 rounded-full border-white border-1 "
+        className=" w-16 h-16 sm:w-24 sm:h-24 mt-32 text-medium text-3xl sm:hover:text-black duration-700 sm:hover:bg-white animate-bounce flex items-center justify-center  introduction opacity-0 translate-y-10 rounded-full border-white border-2 "
       >
         <FaArrowDown />
       </div>
