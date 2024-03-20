@@ -14,16 +14,16 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center space-y-20">
+    <div className="min-h-screen flex flex-col items-center justify-center space-y-20 sm:space-y-8">
       <div className="w-full flex relative px-5  sm:pl-10 md:pl-24 justify-center flex-col font-roboto font-light   uppercase mb-5 text-white ">
         <h1 className="text-xl introduction font-[100] opacity-1 leading-9 pt-5 opacity-0 sm:pl-3 pb-2  translate-y-10  z-10 text-white sm:text2xl md:text-3xl lg:text-4xl max-w-4xl font-robotoCondensed uppercase">
           hi, i am{" "}
-          <span className="text-slate-200  font-light">aman shrestha</span>
+          <span className="text-slate-200  font-normal">aman shrestha</span>
         </h1>
 
-        <h1 className="z-10 text-white introduction opacity-0 font-[100] sm:pt-3 opacity-1 introduction  translate-y-10 leading-10 sm:leading-[1]  text-[40px] customsm:text-[56px] sm:text-[72px] md:text-[90px]   font-robotoCondensed uppercase">
+        <h1 className="z-10 text-white introduction opacity-0 font-[100] sm:pt-3 opacity-1 introduction  translate-y-10 leading-[1] sm:leading-[1.1]  text-[40px] customsm:text-[56px] sm:text-[72px] md:text-[90px]   font-robotoCondensed uppercase">
           an inquisitive and passionate{" "}
-          <span className="text-slate-200  font-light">software engineer</span>{" "}
+          <span className="text-slate-200  font-normal">software engineer</span>{" "}
           based in nepal
         </h1>
       </div>

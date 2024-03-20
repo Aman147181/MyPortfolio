@@ -2,7 +2,7 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="customsm:min-h-screen flex flex-col px-2 py-10 sm:py-0 justify-center item-center w-full">
+    <div className="customsm:min-h-screen flex flex-col px-2 py-16 sm:py-0 justify-center item-center w-full">
       <div className="w-full  ">
         <h1 className="text-white font-normal text-left font-truculenta sm:pl-24 leading-3 text-[44px] sm:text-7xl md:text-[100px] lg:text-[140px]">
           Feat. Works

@@ -11,8 +11,8 @@ const Contact = () => {
           let's connect{" "}
         </h1>
         <a className="z-50" href="mailto:amanshrestha147181@gmail.com">
-          <button className="px-6 py-3 bg-black  text-white ml-2 opacity-1 rounded-md text-sm customsm:text-base md:text-xl hover:text-black hover:font-medium duration-700 hover:bg-white uppercase font-robotoCondensed">
-            message me
+          <button className="px-7 py-3 bg-black  text-white ml-2 opacity-1 rounded-sm text-sm customsm:text-base md:text-xl hover:text-black hover:font-medium duration-700 hover:bg-white uppercase font-robotoCondensed">
+           write a message 
           </button>{" "}
         </a>
       </div>
