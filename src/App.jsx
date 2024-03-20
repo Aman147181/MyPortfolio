@@ -36,7 +36,6 @@ const App = () => {
 
   return (
     <div className="w-full relative px-4 font-roboto font-light bg-themeBlack  text-white min-h-screen">
-      <div className="flex w-full h-screen fixed z-10 md:z-10  top-0 items-center text-slate-300 justify-between">
         <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
           <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
             <FaLinkedinIn />
@@ -65,7 +64,7 @@ const App = () => {
         </div>
 
         {/* Navigation */}
-        <div className="fixed z-[1000]  top-3 bg-themeBlack opacity-90 p-1 rounded-lg right-2 sm:right-5 flex text-sm sm:text-base lg:text-[18px] flex-col font-robotoCondensed">
+        <div className="fixed z-50 top-3 bg-themeBlack opacity-[90%] p-3 rounded-lg right-2 sm:right-5 flex text-base  lg:text-xl flex-col font-robotoCondensed">
           <h1
             onClick={() => scrollToSection("home")}
             className={`hover:text-gray-200 hover:cursor-pointer duration-300 ${
@@ -91,7 +90,7 @@ const App = () => {
             contact
           </h1>
         </div>
-      </div>
+     
 
       {/* Sections */}
       <section id="home">
