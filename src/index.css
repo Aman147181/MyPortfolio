@@ -74,3 +74,13 @@
       background: #191919;
       inset: 2px;
     }
+
+
+    .image {
+      transition: transform 2s ease-in-out;
+    }
+    
+    .image:hover {
+      transform: translateY(calc(-100% + 500px));
+    }
+    
