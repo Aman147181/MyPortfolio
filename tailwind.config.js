@@ -12,7 +12,7 @@ export default {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        themeBlack: "#191919",
+        themeBlack: "#050505",
         themeRed: "#750E21",
         themeOrange: "#E3651D",
         themeLightGreen: "#BED754",
@@ -25,7 +25,8 @@ export default {
         lato: "Lato",
         garamond: "EB Garamond",
         nepali: "Tiro Devanagari Hindi",
-        truculenta:"Truculenta",
+        truculenta: "Truculenta",
+        playfair: "Playfair Display"
       },
     },
   },

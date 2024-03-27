@@ -34,46 +34,11 @@
     content: "";
     position: absolute;
    
-    background: #191919;
+    background: #050505;
     inset: 2px;
   }
 
 
-  .circle::before {
-    content: "";
-    position: absolute;
-    
-    background: linear-gradient(#100f10, #f4f4f0);
-    animation: rotate 3s linear infinite;
-  }
-  @keyframes rotate {
-     
-      0% {
-          transform: rotate(0deg);
-        }
-        20% {
-          transform: rotate(72deg);
-        }
-        40% {
-          transform: rotate(144deg);
-        }
-        60% {
-          transform: rotate(216deg);
-        }
-        80% {
-          transform: rotate(288deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-  }
-  .circle::after {
-      content: "";
-      position: absolute;
-     border-radius: 32px;
-      background: #191919;
-      inset: 2px;
-    }
 
 
     .image {
