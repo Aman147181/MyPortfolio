@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen z-10 flex items-center px-2 sm:px-10 py-6 justify-center">
-      <div className="box sm:before:w-[120%]  sm:before:h-[20%] before:h-[120%] before:w-[5%]  border-white border-2 sm:py-16 max-w-6xl py-[114px] overflow-hidden rounded-[36px] sm:rounded-[56px] flex flex-col space-y-2 items-center px-10 sm:px-32 justify-center relative">
+    <div className="min-h-screen z-10 flex items-center px-2 sm:px-10 py-10 justify-center">
+      <div className="box sm:before:w-[120%]  sm:before:h-[20%] before:h-[120%] before:w-[5%]  border-white border-2 sm:py-12 max-w-6xl py-[114px] overflow-hidden rounded-[36px] sm:rounded-[56px] flex flex-col space-y-2 items-center px-10 sm:px-32 justify-center relative">
         <h1 className="font-roboto text-white opacity-1 z-50 sm:pl-3 text-base customsm:text-xl sm:text-[24px] leading-[5px] pb-5 uppercase">
           got a project in mind?{" "}
         </h1>

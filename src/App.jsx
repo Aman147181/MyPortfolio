@@ -38,7 +38,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-full relative px-4 font-roboto font-light bg-themeBlack  text-white min-h-screen">
+    <div className="w-full relative px-4  font-roboto font-light bg-themeBlack  text-white min-h-screen">
       <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
         <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
           <FaLinkedinIn />
@@ -52,7 +52,7 @@ const App = () => {
       </div>
 
       {/* Brand name */}
-      <div className="w-full pr-5 flex justify-between backdrop-blur-md md:backdrop-blur-none fixed top-0 bg-themeBlack/80 md:bg-themeBlack/0  z-50">
+      <div className="w-full pr-5 flex justify-between backdrop-blur-md 2xl:backdrop-blur-none fixed top-0 bg-themeBlack/80 2xl:bg-themeBlack/0  z-50">
         <div
           onClick={() => scrollToSection("home")}
           className="  hover:cursor-pointer  uppercase text-xl lg:text-3xl font-shoulder pt-3"

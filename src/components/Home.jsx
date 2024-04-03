@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div className="min-h-screen flex flex-col items-center justify-center space-y-20 sm:space-y-8">
-      <div className="w-full flex relative pl-5  sm:pl-10 md:pl-24 justify-center flex-col font-roboto font-light    mb-5 text-white ">
+      <div className="w-full flex relative pl-5  sm:pl-10 lg:pl-24 justify-center flex-col font-roboto font-light    mb-5 text-white ">
         
 
         <h1 className="z-10 text-white introduction opacity-0 font-[100] sm:pt-3 opacity-1 introduction  max-w-5xl translate-y-10 leading-[0.9] sm:leading-[0.9]  text-[36px] customsm:text-[56px] sm:text-[72px] md:text-[90px] md:leading-[0.9]   font-playfair ">
