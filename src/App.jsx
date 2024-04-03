@@ -31,43 +31,40 @@ const App = () => {
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
+    
     section.scrollIntoView({ behavior: "smooth" });
+      
+    
   };
 
   return (
     <div className="w-full relative px-4 font-roboto font-light bg-themeBlack  text-white min-h-screen">
-        <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
-          <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
-            <FaLinkedinIn />
-          </a>
-          <a href="https://www.facebook.com/aman.shrestha.7524/">
-            <FaFacebookF />
-          </a>
-          <a href="mailto:amanshrestha147181@gmail.com">
-            <MdEmail />
-          </a>
-        </div>
+      <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
+        <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
+          <FaLinkedinIn />
+        </a>
+        <a href="https://www.facebook.com/aman.shrestha.7524/">
+          <FaFacebookF />
+        </a>
+        <a href="mailto:amanshrestha147181@gmail.com">
+          <MdEmail />
+        </a>
+      </div>
 
+      {/* Brand name */}
+      <div className="w-full pr-5 flex justify-between backdrop-blur-md md:backdrop-blur-none fixed top-0 bg-themeBlack/80 md:bg-themeBlack/0  z-50">
         <div
           onClick={() => scrollToSection("home")}
-          className="fixed hover:cursor-pointer z-10 sm:hidden top-5 left-1 sm:left-5"
-        >
-          <img className="w-5 h-5" src="/logo.png" />
-        </div>
-
-        {/* Brand name */}
-        <div
-          onClick={() => scrollToSection("home")}
-          className="fixed z-50 sm:block hover:cursor-pointer hidden uppercase text-xl lg:text-3xl font-shoulder sm:top-5 sm:left-5"
+          className="  hover:cursor-pointer  uppercase text-xl lg:text-3xl font-shoulder pt-3"
         >
           Aman S.
         </div>
 
         {/* Navigation */}
-        <div className="fixed z-50 top-3 bg-themeBlack opacity-[90%] p-3 rounded-lg right-2 sm:right-5 flex text-base  lg:text-xl flex-col font-robotoCondensed">
+        <div className="   p-3 rounded-lg flex leading-5 sm:leading-6   text-base sm:text-lg flex-col font-robotoCondensed">
           <h1
             onClick={() => scrollToSection("home")}
-            className={`hover:text-gray-200 hover:cursor-pointer duration-300 ${
+            className={`hover:text-gray-200  hover:cursor-pointer duration-300 ${
               activeSection === "home" ? "text-white" : "text-gray-500"
             }`}
           >
@@ -90,7 +87,7 @@ const App = () => {
             contact
           </h1>
         </div>
-     
+      </div>
 
       {/* Sections */}
       <section id="home">

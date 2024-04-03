@@ -2,18 +2,18 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="customsm:min-h-screen flex flex-col px-2 py-16 sm:py-0 justify-center item-center w-full">
+    <div className=" flex flex-col px-2 customsm:px-4 sm:px-10 pt-24  py-16 sm:py-0 justify-center item-center w-full">
       <div className="w-full  ">
-        <h1 className="text-white font-normal text-left font-truculenta sm:pl-24 leading-3 text-[44px] sm:text-7xl md:text-[100px] lg:text-[140px]">
+        <h1 className="text-white font-normal text-left font-truculenta sm:pl-16 lg:pl-12 leading-3 text-5xl customsm:text-6xl sm:text-7xl md:text-[100px] lg:text-[140px]">
           Feat. Works
         </h1>
-        <h1 className="font-truculenta pt-4 customsm:pt-2 text-xl md:text-2xl lg:text-4xl sm:pl-24   ">
+        <h1 className="font-truculenta pt-4 customsm:pt-2 text-xl md:text-2xl lg:text-4xl sm:pl-16 lg:pl-12   ">
           Here are some of my projects
         </h1>
       </div>
-      <div className="flex  items-center  overflow-y-auto scrollbar-hide   py-10  gap-8 pt-5  z-20 lg:px-24">
-      <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]   relative overflow-y-hidden ">
+      <div className="flex  items-center  overflow-y-auto scrollbar-hide   py-10  gap-8 pt-5  z-20 sm:pl-16 lg:px-12">
+        <div className="flex flex-col space-y-1">
+          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[450px]   relative overflow-y-hidden ">
             <a href="https://urban-dwellings.vercel.app/">
               <img className="image" src="/urban.png" alt="Urban Dwellings" />
             </a>
@@ -24,9 +24,8 @@ const Work = () => {
           </div>
         </div>
 
-
         <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]  sm:h-[480px] relative overflow-y-hidden  ">
+          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[450px]  relative overflow-y-hidden  ">
             <a href="https://github.com/Aman147181/minor-project">
               <img className="image" src="/safari.png" alt="Safari Nepal " />
             </a>
@@ -37,7 +36,7 @@ const Work = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[480px]  sm:h-[480px] relative overflow-y-hidden ">
+          <div className="w-full sm:hover:h-[500px] sm:hover:w-[105%] duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[450px]   relative overflow-y-hidden ">
             <a href="https://ayushachary.com.np/">
               <img className="image" src="/rupse.png" alt="Rupse Holidays" />
             </a>
