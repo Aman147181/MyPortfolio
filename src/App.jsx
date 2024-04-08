@@ -52,7 +52,7 @@ const App = () => {
       </div>
 
       {/* Brand name */}
-      <div className="w-full pr-5 flex justify-between backdrop-blur-md 2xl:backdrop-blur-none fixed top-0 bg-themeBlack/80 2xl:bg-themeBlack/0  z-50">
+      <div className="w-full pr-5 flex justify-between backdrop-blur-[8px] 2xl:backdrop-blur-none fixed top-0 bg-themeBlack/80 2xl:bg-themeBlack/0  z-50">
         <div
           onClick={() => scrollToSection("home")}
           className="  hover:cursor-pointer  uppercase text-xl lg:text-3xl font-shoulder pt-3"
