@@ -3,7 +3,7 @@ import React from 'react'
 const WorkComponent = ({imgurl, desc, worklink}) => {
   return (
     <div className="flex flex-col space-y-1">
-          <div className="w-full sm:hover:scale-105  duration-700 max-w-4xl min-w-[314px] customsm:min-w-[360px] rounded-3xl  customsm:rounded-[44px] h-[450px]   relative overflow-y-hidden ">
+          <div className="w-full sm:hover:scale-105  duration-700 max-w-4xl min-w-[314px] customsm:min-w-[340px] rounded-3xl  customsm:rounded-[44px] h-[450px]   relative overflow-y-hidden ">
             <a href={worklink}>
               <img className="image" src={imgurl} alt="Urban Dwellings" />
             </a>
