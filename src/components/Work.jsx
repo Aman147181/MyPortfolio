@@ -20,12 +20,12 @@ const Work = () => {
       imgurl: "/safari.png",
     },
     {
-      worklink: "https://ayushachary.com.np/",
+      worklink: "https://realstate-theta.vercel.app/",
       desc: {
-        one: "Rupse Holidays",
-        two: "React+Tailwind",
+        one: "Realtor",
+        two: "Nextjs + Tailwind",
       },
-      imgurl: "/rupse.png",
+      imgurl: "/realtor.png",
     },
   ];
   return (
@@ -34,15 +34,16 @@ const Work = () => {
         <h1 className="text-white font-normal text-left font-truculenta pl-2 lg:pl-12 leading-3 text-5xl customsm:text-6xl sm:text-7xl md:text-[100px] lg:text-[140px]">
           {`<Feat. Works/>`}
         </h1>
-        <h1 className="font-truculenta pt-4 pb-4 customsm:pt-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl pl-4 lg:pl-12   ">
+        <h1 className="font-truculenta pt-4 sm:pb-4 customsm:pt-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl pl-4 lg:pl-12   ">
           Here are some of my projects
         </h1>
       </div>
       
       <div className="flex  items-center   overflow-y-auto scrollbar-hide   py-10  gap-8 pt-5  z-20 lg:px-24">
         
-        {works.map((el) => (
+        {works.map((el, index) => (
           <WorkComponent
+            key={index}
             imgurl={el.imgurl}
             desc={el.desc}
             worklink={el.worklink}
