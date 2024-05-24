@@ -4,6 +4,14 @@ import WorkComponent from "./WorkComponent";
 const Work = () => {
   const works = [
     {
+      worklink: "https://realstate-theta.vercel.app/",
+      desc: {
+        one: "Realtor",
+        two: "Nextjs + Tailwind",
+      },
+      imgurl: "/realestate.png",
+    },
+    {
       worklink: "https://urban-dwellings.vercel.app/",
       desc: {
         one: "Urban Dwellings",
@@ -12,21 +20,14 @@ const Work = () => {
       imgurl: "/urban.png",
     },
     {
-      worklink: "https://github.com/Aman147181/minor-project",
+      worklink: "https://magnifico-nine.vercel.app/",
       desc: {
-        one: "Safari Nepal",
-        two: "Django + Bootstrap",
-      },
-      imgurl: "/safari.png",
-    },
-    {
-      worklink: "https://realstate-theta.vercel.app/",
-      desc: {
-        one: "Realtor",
+        one: "Magnifiqo Resort",
         two: "Nextjs + Tailwind",
       },
-      imgurl: "/realtor.png",
+      imgurl: "/magnifico.png",
     },
+    
   ];
   return (
     <div className=" flex flex-col px-2 customsm:px-4 sm:px-10 pt-24  py-16 2xl:py-0 justify-center item-center w-full">

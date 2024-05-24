@@ -46,6 +46,6 @@
     }
     
     .image:hover {
-      transform: translateY(calc(-100% + 500px));
+      transform: translateY(calc(-100% + 450px));
     }
     
