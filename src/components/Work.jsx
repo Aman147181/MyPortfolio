@@ -4,6 +4,14 @@ import WorkComponent from "./WorkComponent";
 const Work = () => {
   const works = [
     {
+      worklink: "https://magnifico-nine.vercel.app/",
+      desc: {
+        one: "Magnifiqo Resort",
+        two: "Nextjs + Tailwind",
+      },
+      imgurl: "/magnifico.png",
+    },
+    {
       worklink: "https://realstate-theta.vercel.app/",
       desc: {
         one: "Realtor",
@@ -19,29 +27,17 @@ const Work = () => {
       },
       imgurl: "/urban.png",
     },
-    {
-      worklink: "https://magnifico-nine.vercel.app/",
-      desc: {
-        one: "Magnifiqo Resort",
-        two: "Nextjs + Tailwind",
-      },
-      imgurl: "/magnifico.png",
-    },
     
   ];
   return (
-    <div className=" flex flex-col px-2 customsm:px-4 sm:px-10 pt-24  py-16 2xl:py-0 justify-center item-center w-full">
-      <div className="w-full  ">
-        <h1 className="text-white font-normal text-left font-truculenta pl-2 lg:pl-12 leading-3 text-5xl customsm:text-6xl sm:text-7xl md:text-[100px] lg:text-[140px]">
-          {`<Feat. Works/>`}
+    <div className=" flex flex-col  bg-black    pt-12 px-1 customsm:px-12 md:px-20 2xl:py-0 justify-center item-center w-full">
+      <div className=" bg-black  w-full sticky  z-[40] bg-opacity-100 top-[54px]  xl:top-10 ">
+        <h1 className=" text-white   font-normal w-full pt-8 pl-3 pb-2   text-left uppercase font-poppins   text-xl customsm:text-5xl  md:text-6xl">
+          selected works
         </h1>
-        <h1 className="font-truculenta pt-4 sm:pb-4 customsm:pt-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl pl-4 lg:pl-12   ">
-          Here are some of my projects
-        </h1>
-      </div>
-      
-      <div className="flex  items-center   overflow-y-auto scrollbar-hide   py-10  gap-8 pt-5  z-20 lg:px-24">
-        
+      </div> 
+
+      <div className="flex flex-col justify-center  items-end  px-4  pt-4     gap-y-20   z-20 ">
         {works.map((el, index) => (
           <WorkComponent
             key={index}

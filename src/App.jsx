@@ -38,8 +38,8 @@ const App = () => {
   };
 
   return (
-    <div className="w-full relative px-4  font-roboto font-light bg-themeBlack  text-white min-h-screen">
-      <div className="fixed bottom-10 left-1 sm:left-5 space-y-5 text-base sm:text-2xl flex flex-col">
+    <div className="w-full relative   font-roboto font-light bg-themeBlack  text-white min-h-screen">
+      <div className="hidden fixed bottom-10  right-1 sm:right-5 space-y-5 text-lg sm:text-2xl customsm:flex flex-col">
         <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
           <FaLinkedinIn />
         </a>
@@ -52,16 +52,16 @@ const App = () => {
       </div>
 
       {/* Brand name */}
-      <div className="w-full pr-5 flex justify-between backdrop-blur-[8px] 2xl:backdrop-blur-none fixed top-0 bg-themeBlack/80 2xl:bg-themeBlack/0  z-50">
+      <div className="w-full pr-5 flex justify-between bg-black fixed top-0   z-50">
         <div
           onClick={() => scrollToSection("home")}
-          className="  hover:cursor-pointer  uppercase text-xl lg:text-3xl font-shoulder pt-3"
+          className="  hover:cursor-pointer pl-4  uppercase text-3xl font-shoulder py-3"
         >
           Aman S.
         </div>
 
         {/* Navigation */}
-        <div className="   p-3 rounded-lg flex leading-5 sm:leading-6   text-base sm:text-lg flex-col font-robotoCondensed">
+        {/* <div className="   p-3 rounded-lg flex leading-5 sm:leading-6   text-base sm:text-lg flex-col font-robotoCondensed">
           <h1
             onClick={() => scrollToSection("home")}
             className={`hover:text-gray-200  hover:cursor-pointer duration-300 ${
@@ -86,7 +86,7 @@ const App = () => {
           >
             contact
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Sections */}

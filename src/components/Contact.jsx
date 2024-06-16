@@ -1,19 +1,35 @@
 import React from "react";
-
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Contact = () => {
   return (
-    <div className="min-h-screen z-10 flex items-center px-2 sm:px-10 py-10 justify-center">
-      <div className="box sm:before:w-[120%]  sm:before:h-[20%] before:h-[120%] before:w-[5%]  border-white border-2 sm:py-12 max-w-6xl py-[114px] overflow-hidden rounded-[36px] sm:rounded-[56px] flex flex-col space-y-2 items-center px-10 sm:px-32 justify-center relative">
-        <h1 className="font-roboto text-white opacity-1 z-50 sm:pl-3 text-base customsm:text-xl sm:text-[24px] leading-[5px] pb-5 uppercase">
-          got a project in mind?{" "}
+    <div className="min-h-screen relative z-10 flex w-full flex-col  items-center px-2 sm:px-20 space-y-10 py-10 justify-center">
+      <div className="flex space-y-7 flex-col">
+        <h1 className=" text-left text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
+          Lets Make Your
+          <br /> Project Come To Life!
         </h1>
-        <h1 className="font-roboto font-medium text-white z-50 text-5xl opacity-1 text-center customsm:text-7xl sm:text-[90px] md:text-[120px] pb-12 uppercase">
-          let's connect{" "}
-        </h1>
-        <a className="z-50" href="mailto:amanshrestha147181@gmail.com">
-          <button className="px-7 py-3 bg-black border border-white  text-white ml-2 opacity-1 rounded-sm text-sm customsm:text-base md:text-xl sm:hover:text-black sm:hover:font-medium duration-700 sm:hover:bg-white uppercase font-robotoCondensed">
-           write a message 
-          </button>{" "}
+        
+        <a
+          className="text-left font-truculenta text-2xl sm:text-3xl lg:text-4xl xl:text-5xl"
+          href="mailto:amanshrestha147181@gmail.com"
+        >
+          <button className="px-4 py-1 sm:px-7 sm:py-3 text-white bg-black border duration-500  hover:text-black hover:bg-white border-white">
+            Contact Me
+          </button>
+          </a>
+         
+        
+      </div>
+      <div className=" flex absolute bottom-10  right-3  space-y-3 text-lg sm:text-2xl customsm:hidden flex-col">
+        <a href="https://www.linkedin.com/in/aman-shrestha-445b5b214/">
+          <FaLinkedinIn />
+        </a>
+        <a href="https://www.facebook.com/aman.shrestha.7524/">
+          <FaFacebookF />
+        </a>
+        <a href="mailto:amanshrestha147181@gmail.com">
+          <MdEmail />
         </a>
       </div>
     </div>
