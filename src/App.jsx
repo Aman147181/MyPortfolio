@@ -60,33 +60,7 @@ const App = () => {
           Aman S.
         </div>
 
-        {/* Navigation */}
-        {/* <div className="   p-3 rounded-lg flex leading-5 sm:leading-6   text-base sm:text-lg flex-col font-robotoCondensed">
-          <h1
-            onClick={() => scrollToSection("home")}
-            className={`hover:text-gray-200  hover:cursor-pointer duration-300 ${
-              activeSection === "home" ? "text-white" : "text-gray-500"
-            }`}
-          >
-            home
-          </h1>
-          <h1
-            onClick={() => scrollToSection("work")}
-            className={`hover:text-gray-200 hover:cursor-pointer duration-300 ${
-              activeSection === "work" ? "text-white" : "text-gray-500"
-            }`}
-          >
-            work
-          </h1>
-          <h1
-            onClick={() => scrollToSection("contact")}
-            className={`hover:text-gray-200 hover:cursor-pointer duration-300 ${
-              activeSection === "contact" ? "text-white" : "text-gray-500"
-            }`}
-          >
-            contact
-          </h1>
-        </div> */}
+        
       </div>
 
       {/* Sections */}
@@ -99,6 +73,7 @@ const App = () => {
       <section id="contact">
         <Contact />
       </section>
+     
     </div>
   );
 };

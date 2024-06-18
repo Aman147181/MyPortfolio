@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="min-h-screen px-4 flex flex-col items-center justify-center space-y-20 sm:space-y-8">
-      <div className="w-full max-w-5xl flex relative  justify-center items-center flex-col  space-y-12 font-light    mb-5 text-white ">
+      <div className="w-full max-w-4xl flex relative  justify-center items-center flex-col  space-y-12 font-light    mb-5 text-white ">
         <div className="w-full flex items-center justify-start">
           <h1 className="z-10 text-white   pt-16      text-xl customsm:text-2xl sm:text-3xl md:text-[32px] font-truculenta ">
             Hello, I am Aman Shrestha
