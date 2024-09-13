@@ -27,6 +27,14 @@ const Work = () => {
       },
       imgurl: "/urban.png",
     },
+    {
+      worklink: "https://travello-alpha.vercel.app/",
+      desc: {
+        one: "Travello",
+        two: "React+Tailwind",
+      },
+      imgurl: "/travello.png",
+    },
     
   ];
   return (
